@@ -24,6 +24,7 @@ const BlogDetailPage: FC<BlogDetailPageProps> = async ({ params }) => {
 
     //try to sanitize
     //stil try
+    //try again
     //const sanitizedContent = post?.content ? DOMPurify.sanitize(post.content) : '';
     // const sanitizedContent = () => ({
     //     __html: DOMPurify.sanitize(post?.content)
