@@ -22,11 +22,12 @@ const BlogDetailPage: FC<BlogDetailPageProps> = async ({ params }) => {
     });
     //console.log(post); //just for coba
 
+    //try to sanitize
     //const sanitizedContent = post?.content ? DOMPurify.sanitize(post.content) : '';
     // const sanitizedContent = () => ({
     //     __html: DOMPurify.sanitize(post?.content)
     //   })
-    
+
     return (
         <div className='max-w-2xl mx-auto py-8'>
             <h3 className="text-white font-bold text-2xl mb-4">
